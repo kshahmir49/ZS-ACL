@@ -1,0 +1,13 @@
+prefix=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda
+exec_prefix=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda
+libdir=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda/lib
+sharedlibdir=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda/lib
+includedir=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda
+exec_prefix=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda
+libdir=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda/lib
+includedir=/Users/shahmirkhan/Library/CloudStorage/OneDrive-ku.ac.ae/Khalifa University/Ph.D. Thesis/Denoising/Git/.conda/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://xz.tukaani.org/xz-utils/
+Version: 5.4.6
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
