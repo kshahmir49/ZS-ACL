@@ -14,3 +14,6 @@ To perform denoising for different images, change the name of the image inside m
 
 ### Sample Output
 ![plot](./images/sample_output.png)
+
+### Citation
+To be added
