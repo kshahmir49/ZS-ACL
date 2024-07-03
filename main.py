@@ -7,7 +7,7 @@ from torchvision import transforms
 import matplotlib.pyplot as plt
 from PIL import Image
 
-## Set CUDA for NVIDIA
+## Set cuda for NVIDIA
 device = 'mps'
 model = lw_cnn(3)
 model = model.to(device)
@@ -66,5 +66,5 @@ def zero_shot_denoise(img, noise_intensity, noise_type):
     plt.show()  
     
 
-img = Image.open("kodim21.png")
+img = Image.open("images/kodim21.png")
 zero_shot_denoise(img,10,"gauss")
