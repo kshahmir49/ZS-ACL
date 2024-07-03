@@ -9,7 +9,7 @@ class lw_cnn(nn.Module):
             nn.Conv2d(n_chan, int(chan_embed/2), kernel_size=3, stride=1, padding=1, padding_mode='zeros'),
             nn.SELU(inplace=True),
             nn.Conv2d(int(chan_embed/2), chan_embed, kernel_size=1),
-            nn.SELU(inplace=True),
+            nn.SELU(inplace=True)
         )
         
         # Decoder
