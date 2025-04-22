@@ -16,6 +16,7 @@ To perform denoising for different images, change the name of the image inside m
 ![plot](./images/sample_output.png)
 
 ### Citation
+```
 @inproceedings{mohammed2024zs,
   title={ZS-ACL: Light-Weight Zero-Shot Image Denoising Using Alpha-Conditional Loss},
   author={Mohammed, Shahmir Khan and Singh, Shakti},
@@ -24,3 +25,4 @@ To perform denoising for different images, change the name of the image inside m
   year={2024},
   organization={IEEE}
 }
+```
